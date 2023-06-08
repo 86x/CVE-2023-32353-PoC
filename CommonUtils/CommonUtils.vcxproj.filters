@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="CommonUtils.h" />
+    <ClInclude Include="FileOpLock.h" />
+    <ClInclude Include="FileSymlink.h" />
+    <ClInclude Include="ntimports.h" />
+    <ClInclude Include="ReparsePoint.h" />
+    <ClInclude Include="ScopedHandle.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="typed_buffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommonUtils.cpp" />
+    <ClCompile Include="DirectoryObject.cpp" />
+    <ClCompile Include="FileOpLock.cpp" />
+    <ClCompile Include="FileSymlink.cpp" />
+    <ClCompile Include="Hardlink.cpp" />
+    <ClCompile Include="NativeSymlink.cpp" />
+    <ClCompile Include="RegistrySymlink.cpp" />
+    <ClCompile Include="ReparsePoint.cpp" />
+    <ClCompile Include="ScopedHandle.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+</Project>
